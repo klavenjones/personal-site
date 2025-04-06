@@ -34,7 +34,7 @@ export function Footer() {
 
   return (
     <footer className="w-full max-w-lg py-12 space-y-6">
-    <div className="flex gap-6 justify-start">
+    <div className="flex gap-4 md:gap-6 justify-start">
       {footerLinks.map((link) => (
         <Link
           key={link.href}
