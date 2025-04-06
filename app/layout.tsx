@@ -12,8 +12,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "A minimalist portfolio website",
+  title: "Klaven Jones",
+  description: "Software Engineer",
   icons: {
     icon: '/favicon.ico',
   }
