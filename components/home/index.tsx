@@ -22,7 +22,7 @@ export default function Portfolio({ posts }: PortfolioProps) {
           </StaggerItem>
           <StaggerItem>
             <p className={`${isDark ? "text-gray-200" : "text-gray-800"} mb-12 leading-relaxed`}>
-              I'm a software engineer based in New York. I currently work at <a href="https://www.linkedin.com/company/jpmorgan" className="text-blue-500 hover:text-blue-600">JP Morgan Chase</a> where I focus on building human-centered products that improve workflow and efficiency for our sales and research professionals. 
+              I&apos;m a software engineer based in New York. I currently work at <a href="https://www.linkedin.com/company/jpmorgan" className="text-blue-500 hover:text-blue-600">JP Morgan Chase</a> where I focus on building human-centered products that improve workflow and efficiency for our sales and research professionals. 
             </p>
           </StaggerItem>
          <div className="space-y-4">
