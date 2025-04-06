@@ -47,7 +47,7 @@ export function Footer() {
       ))}
     </div>
 
-    <div className={`${isDark ? "text-gray-400" : "text-gray-600"}`}>© 2024 MIT Licensed</div>
+    {/* <div className={`${isDark ? "text-gray-400" : "text-gray-600"}`}>© 2024 MIT Licensed</div> */}
   </footer>
   )
 }
