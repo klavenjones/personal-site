@@ -33,7 +33,7 @@ export function Footer() {
   const isDark = theme === 'dark';
 
   return (
-    <footer className="w-full max-w-xl py-12 space-y-6">
+    <footer className="w-full max-w-lg py-12 space-y-6">
     <div className="flex gap-6 justify-start">
       {footerLinks.map((link) => (
         <Link
