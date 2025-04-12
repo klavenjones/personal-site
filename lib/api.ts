@@ -19,7 +19,6 @@ export function getPostSlugs() {
  */
 // @eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getPostBySlug(slug: string, fields: string[]): Post {
-  console.log(fields);
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");

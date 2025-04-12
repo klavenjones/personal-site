@@ -13,6 +13,10 @@ const navItems = [
     href: '/blog',
     label: 'Blog',
   },
+  {
+    href: '/resume.pdf',
+    label: 'Resume',
+  },
 ] 
 
 export function Header() {
