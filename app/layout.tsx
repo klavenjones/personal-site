@@ -2,6 +2,7 @@ import type React from "react"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import type { Metadata } from "next"
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { ThemeProvider } from "@/components/theme-provider"
 import { Container } from "@/components/ui/container"
 import { AnimatedLayout } from "@/components/ui/animated-layout"
@@ -34,6 +35,7 @@ export default function RootLayout({
             </Container>
           </AnimatedLayout>
         </ThemeProvider>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
       </body>
     </html>
   )
